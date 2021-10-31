@@ -1,0 +1,91 @@
+
+body{
+    background-color: black;
+    font-family: "Georgia", serif;
+}
+
+h1{
+    color:white;
+    font-family:consolas;
+    display:flex;
+}
+.loader{
+    position:relative;
+}
+.loader::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:2px;
+    height:100%;
+    background: white;
+    animation: blinkCursor 1s steps(3) infinite;
+}
+@keyframes blinkCursor
+{
+    0%, 50%{
+        opacity:1;
+
+    }
+    51%, 100%{
+        opacity:0;
+    }
+}
+
+.loader h1{
+    position:relative;
+    color:white;
+    font-size:300%;
+
+}
+
+
+
+
+#Construction-Methods-Section{
+    background-color: black;
+    color:whitesmoke;
+    width:100%;
+    font-size: 130%;
+    
+}
+section{
+    margin-bottom:2%;
+}
+
+h2{
+    margin-bottom:2%;
+}
+
+.img{
+    background-color: white;
+}
+
+#Effect-Of-Cooling-Section{
+    background-color: black;
+    color:whitesmoke;
+    width:100%;
+    font-size:130%;
+}
+
+#Physics-Section{
+    background-color: black;
+    color:whitesmoke;
+    width:100%;
+    font-size:130%;
+}
+
+#Bibliography{
+    background-color: black;
+    color:whitesmoke;
+    width:100%;
+    font-size:130%;
+}
+
+#Special-Stuff{
+    background-color: black;
+    color:whitesmoke;
+    width:100%;
+    font-size:130%;
+}
